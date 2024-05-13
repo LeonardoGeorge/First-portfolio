@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgba(0, 11, 73, 0.9);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #fff
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.background_section {
+    background-image: url('../Imagens/Backgroud/IMG\ 3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#background_1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 350px;
+    height: 430px;
+    background-color:  rgba(0, 11, 73, 0.9);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #FF00FF;
+    border-radius: 50%;
+    background-image: url('../Imagens/Ft.Perfil/FotodePerfil.jpeg');
+    background-size: cover;
+    background-position: left-center;
+    margin-left: 70px;
+}
+
+.nome h1 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.nome h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #bbb;
+}
+
+.container_social_midia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.social_midia {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    background-color: rgba(0, 11, 73, 0.9);
+    
+}
+
+
+.social_midia.lk {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+
+.social_midia.gh {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+
+.social_midia.gmail {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+
+.social_midia {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
