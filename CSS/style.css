@@ -1,27 +1,41 @@
 * {
     margin: 0;
     padding: 0;
-    
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
-    background-color: rgba(0, 11, 73, 0.99);
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    color: #fff
+}
+
+
+/* ----- CSS Header  -----*/ 
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 11, 73, 0.99);
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000; /* Para garantir que o cabeçalho fique acima de outros elementos */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(0, 11, 73, 0.99);
+    color: #fff;
     
 }
 
-.logo, h1 {
+#logo_header {
     font-size: 40px;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     color: #c414b5;
 
@@ -30,8 +44,7 @@ header {
 nav, ul {
     display: flex;
     flex-direction: row;
-    
-    
+       
 }
 
 a, li {
@@ -39,26 +52,36 @@ a, li {
     list-style: none;
     font-size: 16px;
     color: #fff;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #c414b5;
+    font-size: 18px;
+    font-weight: 800;
+    
 }
 
 li {
     margin-left: 27px;
 }
 
-.background_section {
+
+/* ----- CSS | Section - #background_1 ----- */ 
+
+#background_1 {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
     background-image: url('../Imagens/Backgroud/programacion.jpg');
     background-size: cover;
     background-position: left;
 }
 
-#background_1 {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
 .container {
+    margin-top: 100px;
     width: 350px;
     height: 430px;
     background-color:  rgba(0, 11, 73, 0.9);
@@ -123,6 +146,15 @@ li {
     
 }
 
+.social_midia_o:hover {
+    color: #c414b5;
+    border: 2px solid #c414b5;
+}
+.social_midia:hover {
+    color: #c414b5;
+    border: 2px solid #c414b5;
+}
+
 .fab {
    margin-top: 10px;
 }
@@ -135,4 +167,27 @@ li {
     margin-top: 8px;
 }
 
+
+/* ----- CSS | Section - #background_2 ----- */ 
+
+#background_2 {
+    background-color: rgba(0, 11, 73, 1) ;
+    height: 100vh;
+    padding: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+
+#title_background_2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #c414b5;
+}
 
