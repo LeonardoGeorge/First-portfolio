@@ -9,7 +9,7 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 90px;
-    background-color: rgba(0, 11, 73, 0.9);
+    background-color: rgba(0, 11, 73, 0.99);
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -30,18 +30,22 @@ nav, ul {
     display: flex;
     flex-direction: row;
     
+    
 }
 
 a, li {
     text-decoration: none;
     list-style: none;
-    margin-left: 20px;
-    font-size: 15px;
+    font-size: 16px;
     color: #fff;
 }
 
+li {
+    margin-left: 27px;
+}
+
 .background_section {
-    background-image: url('../Imagens/Backgroud/IMG\ 3.jpg');
+    background-image: url('../Imagens/Backgroud/pc-q606x6d0kzm717or.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -96,7 +100,27 @@ a, li {
 .social_midia {
     font-size: 30px;
     color: #fff;
-} 
+    width: 50px;
+    height: 50px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    background-color: rgba(0, 11, 73, 0.9);
+    align-items: center;
+    margin-left: 20px;
+    
+}
+
+.social_midia_o {
+    font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    background-color: rgba(0, 11, 73, 0.9);
+    align-items: center;
+    
+}
 
 .fab {
    margin-top: 10px;
@@ -110,37 +134,4 @@ a, li {
     margin-top: 8px;
 }
 
-.social_midia {
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
-    border: 1px solid #bbb;
-    border-radius: 50%;
-    background-color: rgba(0, 11, 73, 0.9);
-    
-}
 
-
-.social_midia.lk {
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-}
-
-.social_midia.gh {
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-}
-
-.social_midia.gmail {
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-}
-
-.social_midia {
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-}
