@@ -169,51 +169,54 @@ li {
 
 
 /* ----- CSS | Section - #background_2 ----- */ 
-
-#background_2 {
-    background-color: rgba(0, 11, 73, 1) ;
-    height: auto;
-    padding: 25px;
-}
-
 .container_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#title_background_2 {
-    text-transform: uppercase;
-    font-size: 40px;
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #c414b5;
-    margin-top: 80px;
-}
-
-.texto {
-    background-color: rgba(0, 0, 0, 0.473);
-    width: 700px;
-    height: 650px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    text-align: left;
+    margin-top: 90px;
     padding: 20px;
-    font-family: "Poppins";
-    font-size: 17px;
-    color: #bbb;
-    font-weight: 300;
-    border: none;
-    border-radius: 30px;
+    background-color: rgba(0, 11, 73, 0.9);
+    display: grid;
+    gap: 10px;
+    grid-template: 
+        "title title"
+        "texto1 texto2"
+        "texto3 texto4"
+        "texto5 texto5"
+    ;
+}
+.box {
+    background-color: rgba(64, 64, 212, 0.89);
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.title {
+    grid-area: title;
+}
+.texto1 {
+    grid-area: texto1;
+    text-align: left;
+    font-size: 15px;
+}
+.texto2 {
+    grid-area: texto2;
+    text-align: left;
+    font-size: 15px;
+}
+.texto3 {
+    grid-area: texto3;
+    text-align: left;
+    font-size: 15px;
+}
+.texto4 {
+    grid-area: texto4;
+    text-align: left;
+    font-size: 15px;
+}
+.texto5 {
+    grid-area: texto5;
+    text-align: left;
+    font-size: 15px;
 }
 
 
