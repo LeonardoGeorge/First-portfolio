@@ -229,5 +229,18 @@ li {
     padding: 25px;
 }
 
+.title_background_3{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#title_skills {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #c414b5;
+    border: #1f1c1cc2;
+
+}
+
 
 
