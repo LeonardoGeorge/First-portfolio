@@ -50,7 +50,7 @@ nav, ul {
 a, li {
     text-decoration: none;
     list-style: none;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -238,9 +238,125 @@ li {
     text-transform: uppercase;
     font-size: 40px;
     color: #c414b5;
-    border: #1f1c1cc2;
-
+    text-shadow: 
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,  
+      -1px 1px 0 #000,  
+      1px 1px 0 #000; 
 }
-
-
-
+.container_skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-top: 2px solid greenyellow;
+    border-radius: 10px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.TailwindCSS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-top: 2px solid greenyellow;
+    border-radius: 10px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.tcss{
+    font-size: 30px;
+    color: rgb(87, 177, 189);
+    font-weight: 800;
+    padding: 10px;
+}
+.node {
+    font-size: 30px;
+    color: rgb(44, 165, 50);
+    font-weight: 800;
+    padding: 10px;
+}
+.git {
+    font-size: 30px;
+    color: rgb(216, 67, 67);
+    font-weight: 800;
+    padding: 10px;
+}
+.typescript {
+    font-size: 60px;
+    color: rgb(7, 7, 153);
+    font-weight: 800;
+    padding: 10px;
+}
+.javascript {
+    font-size: 60px;
+    color: rgb(136, 136, 18);
+    font-weight: 800;
+    padding: 10px;
+}
+.react {
+    font-size: 30px;
+    color: rgb(91, 91, 241);
+    font-weight: 800;
+    padding: 10px;
+}
+.html {
+    font-size: 30px;
+    color: rgb(91, 241, 191);
+    font-weight: 800;
+    padding: 10px;
+}
+.html:hover {
+    font-size: 30px;
+    color: #c414b5;
+    font-weight: 800;
+    padding: 10px;
+}
+.typescript:hover {
+    font-size: 60px;
+    color: #c414b5;
+    font-weight: 800;
+    padding: 10px;
+}
+.javascript:hover {
+    font-size: 60px;
+    color: #c414b5;
+    font-weight: 800;
+    padding: 10px;
+}
+.react:hover {
+    font-size: 30px;
+    color: #c414b5;
+    font-weight: 800;
+    padding: 10px;
+}
+.node:hover {
+    font-size: 30px;
+    color: #c414b5;
+    font-weight: 800;
+    padding: 10px;
+}
+.git:hover {
+    font-size: 30px;
+    color: #c414b5;
+    font-weight: 800;
+    padding: 10px;
+}
+.tcss:hover {
+    font-size: 30px;
+    color: #c414b5;
+    font-weight: 800;
+    padding: 10px;
+}
