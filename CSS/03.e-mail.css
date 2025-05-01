@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* ----- CSS Header ----- */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 11, 73, 0.99);
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000; /* Para garantir que o cabeçalho fique acima de outros elementos */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(0, 11, 73, 0.99);
+    color: #fff;
+}
+
+#logo_header {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #c414b5;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #c414b5;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+li {
+    margin-left: 27px;
+}
+
+
+
+
+
+/* Estilo no padrão Facebook */
+.container_contato {
+    margin-top: 100px;
+}
+.facebook-form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.facebook-form h2 {
+    color: #1d2129;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #606770;
+    font-size: 12px;
+}
+
+.form-control {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #f5f6f7;
+}
+
+.form-control:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    outline: none;
+}
+
+textarea.form-control {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #166fe5;
+}
+
+/* Ícone do botão */
+.submit-btn i {
+    margin-right: 8px;
+}
