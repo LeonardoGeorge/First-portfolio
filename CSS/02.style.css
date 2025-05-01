@@ -67,7 +67,6 @@ body {
 }
 
 main {
-    padding: 20px;
     line-height: 1.6;
     color: #c414b5; /* Cor do texto para contraste legível */
 }
@@ -75,9 +74,9 @@ main {
 section {
     margin: 0 auto;
     max-width: 800px;
-    background-color: #0200009c;
+    background-color: rgba(0, 11, 73, 0.99);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.582);
+    box-shadow: rgba(0, 11, 73, 0.671);
     padding: 20px;
 }
 
