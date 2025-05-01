@@ -1,0 +1,115 @@
+/* Estilo Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* ----- CSS Header ----- */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 11, 73, 0.99);
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000; /* Para garantir que o cabeçalho fique acima de outros elementos */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(0, 11, 73, 0.99);
+    color: #fff;
+}
+
+#logo_header {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #c414b5;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #c414b5;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+li {
+    margin-left: 27px;
+}
+
+/* ----- CSS Body & Main Content ----- */
+body {
+    background-color: rgba(0, 15, 99, 0.99); /* Um tom suave para destacar o conteúdo */
+    padding-top: 90px; /* Espaço para evitar sobreposição do cabeçalho fixo */
+}
+
+main {
+    padding: 20px;
+    line-height: 1.6;
+    color: #c414b5; /* Cor do texto para contraste legível */
+}
+
+section {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #020000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.582);
+    padding: 20px;
+}
+
+section p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+section p:last-child {
+    margin-bottom: 0;
+}
+
+/* ----- Logos & IMG ----- */
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.logos img {
+    width: 80px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.logos img:hover {
+    transform: scale(1.1);
+}
+
