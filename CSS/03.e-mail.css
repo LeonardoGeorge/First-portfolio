@@ -13,7 +13,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 11, 73, 0.99);
+    background-color: rgba(0, 8, 49, 0.99);
     color: #fff;
     padding: 10px 0;
     z-index: 1000; /* Para garantir que o cabeçalho fique acima de outros elementos */
@@ -59,11 +59,7 @@ li {
     margin-left: 27px;
 }
 
-
-
-
-
-/* Estilo no padrão Facebook */
+/* ----- CSS Contato ----- */
 .container_contato {
     margin-top: 100px;
 }
@@ -71,14 +67,14 @@ li {
     max-width: 500px;
     margin: 30px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #0400ffc0;
     border-radius: 8px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .facebook-form h2 {
-    color: #1d2129;
+    color: #ffffff;
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -91,14 +87,14 @@ li {
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #606770;
+    color: #ffffff;
     font-size: 12px;
 }
 
 .form-control {
     width: 96%;
     padding: 10px;
-    border: 1px solid #dddfe2;
+    border: 1px solid #949494c0;
     border-radius: 5px;
     font-size: 15px;
     background-color: #f5f6f7;

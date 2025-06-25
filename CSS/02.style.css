@@ -84,6 +84,7 @@ section p {
     margin-bottom: 15px;
     font-size: 16px;
     text-align: justify;
+    color: #c414b5;
 }
 
 section p:last-child {
